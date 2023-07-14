@@ -66,15 +66,6 @@ class LoginPage extends StatelessWidget {
             key: key,
             child: ListView(
               children: [
-                Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 30),
-                  child: SizedBox(
-                    height: 150,
-                    width: 150,
-                    child: Image.asset('assets/chat.gif'),
-                  ),
-                ),
                 customTextField(
                   labelText: 'Email',
                   hintText: 'enter email here',
